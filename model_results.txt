@@ -1,0 +1,56 @@
+Logistic Regression 最优参数: {'C': 100, 'solver': 'lbfgs'}
+Logistic Regression 模型在验证集上的准确率: 0.6504
+Logistic Regression 分类报告：
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      1.00      1.00       127
+          OR       0.68      0.60      0.64      2600
+          IR       0.74      0.65      0.69      1500
+           B       0.53      0.71      0.61      1400
+
+    accuracy                           0.65      5627
+   macro avg       0.74      0.74      0.73      5627
+weighted avg       0.66      0.65      0.65      5627
+
+K-Nearest Neighbors 最优参数: {'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'distance'}
+K-Nearest Neighbors 模型在验证集上的准确率: 0.7450
+K-Nearest Neighbors 分类报告：
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      1.00      1.00       127
+          OR       0.79      0.71      0.75      2600
+          IR       0.86      0.83      0.85      1500
+           B       0.56      0.69      0.62      1400
+
+    accuracy                           0.74      5627
+   macro avg       0.80      0.81      0.80      5627
+weighted avg       0.76      0.74      0.75      5627
+
+Random Forest 最优参数: {'max_depth': 30, 'min_samples_split': 2, 'n_estimators': 150}
+Random Forest 模型在验证集上的准确率: 0.8141
+Random Forest 分类报告：
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      1.00      1.00       127
+          OR       0.87      0.77      0.81      2600
+          IR       0.89      0.94      0.91      1500
+           B       0.65      0.75      0.70      1400
+
+    accuracy                           0.81      5627
+   macro avg       0.85      0.86      0.86      5627
+weighted avg       0.82      0.81      0.82      5627
+
+Support Vector Machine 最优参数: {'C': 100, 'gamma': 'auto', 'kernel': 'rbf'}
+Support Vector Machine 模型在验证集上的准确率: 0.7741
+Support Vector Machine 分类报告：
+              precision    recall  f1-score   support
+
+      NORMAL       1.00      1.00      1.00       127
+          OR       0.83      0.72      0.77      2600
+          IR       0.89      0.90      0.89      1500
+           B       0.59      0.73      0.65      1400
+
+    accuracy                           0.77      5627
+   macro avg       0.83      0.84      0.83      5627
+weighted avg       0.79      0.77      0.78      5627
+
